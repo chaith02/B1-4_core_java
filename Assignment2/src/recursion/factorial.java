@@ -1,26 +1,16 @@
-package recursion;
+package factorial;
 
-import java.util.Scanner;
 
-public class factorial {
+class Main {
 	
-public static int factorial(int n)
+public static void main(String args[]) 
 {
-	{
-		if(n==1)
-			return 1;
-		else
-			return n*factorial(n-1);
-	}
+	System.out.println(fun());
 }
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner s=new Scanner(System.in);
-		int n=s.nextInt();
-		System.out.println(factorial(n));
-		s.close();
-
-	}
-
+int fun()
+{
+	return 20;
+}
+}
+	
 }
